@@ -1,0 +1,21 @@
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.btn {
+    background-color: #16a33a;
+    color: white;
+    border: none;
+    padding: .5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #03440e;
+    cursor: pointer;
+}
